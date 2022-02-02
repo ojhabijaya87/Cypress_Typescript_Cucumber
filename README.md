@@ -1,4 +1,4 @@
-Implementation of cypress.io with typeScript and cucumber
+Implementation of Cypress.io with TypeScript and Cucumber
 
 Installation - npm i
 
