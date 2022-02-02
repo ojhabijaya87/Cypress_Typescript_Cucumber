@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "1CRM Demo Automation",
+    "line": 1,
+    "id": "1crm-demo-automation",
+    "tags": [],
+    "uri": "1CRM.feature",
+    "elements": [
+      {
+        "id": "1crm-demo-automation;create-contact",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Create Contact",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User visit the application",
+            "result": {
+              "status": "passed",
+              "duration": 5423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User login to the application with \"admin\" and \"admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User hover to \"Sales & Marketing\"",
+            "result": {
+              "status": "passed",
+              "duration": 6644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on \"Contacts\"",
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User create contact",
+            "result": {
+              "status": "passed",
+              "duration": 2513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Validate user is created",
+            "result": {
+              "status": "passed",
+              "duration": 1254000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "1crm-demo-automation;create-contact---fail-scenario",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Create Contact - Fail Scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User visit the application",
+            "result": {
+              "status": "passed",
+              "duration": 3760000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "User login to the application with \"admin\" and \"admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User hover to \"Sales & Marketing\"",
+            "result": {
+              "status": "passed",
+              "duration": 10747000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User click on \"Contacts\"",
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User create contact",
+            "result": {
+              "status": "passed",
+              "duration": 2074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Fail test",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'ie9n7vxq3j' within the element: <h3> but never did.\n    at Context.eval (https://demo.1crmcloud.com/__cypress/tests?p=cypress\\integration\\1CRM.feature:328:41)\n    at Context.resolveAndRunStepDefinition (https://demo.1crmcloud.com/__cypress/tests?p=cypress\\integration\\1CRM.feature:10741:29)\n    at Context.eval (https://demo.1crmcloud.com/__cypress/tests?p=cypress\\integration\\1CRM.feature:10017:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1crm-demo-automation;select-theme",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Select Theme",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User visit the application",
+            "result": {
+              "status": "passed",
+              "duration": 3391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User select \"Delight Theme\"",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Selected theme is \"Delight Theme\"",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

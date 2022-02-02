@@ -1,0 +1,18 @@
+{
+  "testFiles": "**/*.{feature,features}",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/mocha",
+    "overwrite": true,
+    "html": true,
+    "json": true,
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+ },
+
+  "screenshotOnRunFailure": true,
+  "video":true,
+  "screenshotsFolder": "cypress/screenshots"
+}
